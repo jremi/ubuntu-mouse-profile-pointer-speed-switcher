@@ -1,0 +1,10 @@
+{
+    "pointer": {
+        "trackpad": {
+            "speed": "4/1 7"
+        },
+        "usbmouse": {
+            "speed": "1/2 4"
+        }
+    }
+}
