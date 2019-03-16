@@ -31,8 +31,8 @@ udevadm.stdout.on('data', (data) => {
         setTimeout(()=>{ 
             /*
                 Wait 1s since the OS attempts to set
-                to acceleration:  5/1 with threshold:  5
-                We want to override with our setting
+                to acceleration: We want to override 
+                with our setting immediately after
             */
             exec(`xset m ${mouse.pointer.usbmouse.speed}`);
         },1000);
